@@ -2,6 +2,8 @@
   display: flex;
   background-color: rgb(50, 167, 145);
   height: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 .trybe-warts-login {
@@ -13,4 +15,6 @@
 label {
   padding: 10px
 }
+
+
 
