@@ -4,7 +4,7 @@ window.onload = function carregamento() {
   const validPassword = '123456';
 
   function validateLogin() {
-    const inputEmail = document.getElementById('input-email').value;
+    const inputEmail = document.getElementById('input-email-header').value;
     const inputPassword = document.getElementById('input-password').value;
     if (inputEmail === validEmail && inputPassword === validPassword) {
       alert('Olá, Tryber!');

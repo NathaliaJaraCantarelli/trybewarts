@@ -19,10 +19,13 @@ label {
   display: flex;
   flex-direction: column;
   width: 675px;
-  flex-wrap: wrap; 
 }
 
 .name-lastname {
+  display: flex;
+}
+
+.email-house {
   display: flex;
 }
 
