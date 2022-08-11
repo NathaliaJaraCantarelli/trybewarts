@@ -25,12 +25,12 @@ label {
 .name-lastname {
   display: flex;
 }
-.email-house {
-  display: flex;
-}
 
 main {
   display: flex;
 }
 
-
+#trybewarts-forms-logo {
+  height: 500px;
+  float: right;
+}
