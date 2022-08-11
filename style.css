@@ -14,3 +14,12 @@
 label {
   padding: 10px;
 }
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
+
+main {
+  display: flex;
+}
