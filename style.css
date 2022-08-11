@@ -17,10 +17,20 @@ label {
 
 #evaluation-form {
   display: flex;
-  width: 675px;
   flex-direction: column;
+  width: 675px;
+  flex-wrap: wrap; 
+}
+
+.name-lastname {
+  display: flex;
+}
+.email-house {
+  display: flex;
 }
 
 main {
   display: flex;
 }
+
+
