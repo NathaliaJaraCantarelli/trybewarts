@@ -19,10 +19,13 @@ label {
   display: flex;
   flex-direction: column;
   width: 675px;
-  flex-wrap: wrap; 
 }
 
 .name-lastname {
+  display: flex;
+}
+
+.email-house {
   display: flex;
 }
 
@@ -35,7 +38,8 @@ main {
   float: right;
 }
 
-#label-family {
+#label-family , #label-content {
   display: flex;
   flex-direction: column;
+  align-items: baseline;
 }
