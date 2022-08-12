@@ -14,3 +14,16 @@ window.onload = function carregamento() {
   }
   button.addEventListener('click', validateLogin);
 };
+
+const agreement = document.getElementById('agreement');
+
+function desabilita() {
+  const enviar = document.getElementById('submit-btn');
+  if (enviar.disabled === false) {
+    enviar.disabled = true;
+  } else if (enviar.disabled === true) {
+    enviar.disabled = false;
+  }
+}
+
+agreement.addEventListener('click', desabilita);
