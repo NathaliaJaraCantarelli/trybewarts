@@ -38,8 +38,13 @@ main {
   float: right;
 }
 
-#label-family , #label-content {
+#label-family,
+#label-content {
   display: flex;
   flex-direction: column;
   align-items: baseline;
+}
+
+#counter {
+  margin-left: 10px;
 }
