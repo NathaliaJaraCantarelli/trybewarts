@@ -13,6 +13,21 @@ window.onload = function carregamento() {
     }
   }
   button.addEventListener('click', validateLogin);
+
+  const textAreaElement = document.getElementById('textarea');
+  const maximumCharacters = 500;
+  const typedCharactersElement = document.getElementById('typed-characters');
+  
+  function charactersCounter() {
+    const typedCharacters = document.getElementById('textarea').value.length;
+
+    if (typedCharacters > maximumCharacters) {
+      return false;
+    }
+    typedCharactersElement.textContent = maximumCharacters - typedCharacters;
+  }
+
+  textAreaElement.addEventListener ('keyup', charactersCounter);
 };
 
 const agreement = document.getElementById('agreement');
